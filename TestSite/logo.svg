@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" role="img" aria-labelledby="logoTitle">
+  <title id="logoTitle">Tech Performance Centre logo</title>
+  <rect width="100%" height="100%" fill="#EB553B" rx="24"/>
+  <text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-weight="700" font-size="72" fill="#fff">TPC</text>
+</svg>

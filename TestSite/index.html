@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tech Performance Centre – Launch Your Tech Career</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@300;400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="page">
+    <div class="top-bar">
+       
+      <div class="container top-bar__content"> 
+        <!-- Paste any short top-strip message from TPC here -->
+        <span>
+          <!-- e.g. "Future-ready tech education in Menlyn • QCTO-aligned programmes" -->
+          Future-ready tech education • Learn from professionals, not professors!
+        </span>
+
+        <div class="top-bar__contact">
+          <!-- Replace with your actual phone / WhatsApp / email if different -->
+          <a href="tel:+27120513483">Call: 012 051 3483</a>
+          <span class="divider">|</span>
+          <a href="https://wa.me/27827323216" target="_blank" rel="noopener">WhatsApp: 082 732 3216</a>
+          <span class="divider">|</span>
+          <a href="mailto:info@tpc.training">info@tpc.training</a>
+          <span class="divider">|</span>
+          <div class="top-bar__social">
+            <a href="https://www.facebook.com/TPCPerformanceCentre" target="_blank" rel="noopener" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" role="img" focusable="false">
+                <path d="M22 12.07C22 6.53 17.52 2 12 2S2 6.53 2 12.07c0 5.02 3.66 9.19 8.44 9.93v-7.03H7.9v-2.9h2.54V9.41c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.23.2 2.23.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.44 2.9h-2.34v7.03C18.34 21.26 22 17.09 22 12.07Z" />
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/tpcperformancecentre/" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" role="img" focusable="false">
+                <path d="M16.5 3h-9A4.5 4.5 0 0 0 3 7.5v9A4.5 4.5 0 0 0 7.5 21h9a4.5 4.5 0 0 0 4.5-4.5v-9A4.5 4.5 0 0 0 16.5 3Zm3 13.5A3 3 0 0 1 16.5 19h-9A3 3 0 0 1 4.5 16.5v-9A3 3 0 0 1 7.5 4.5h9a3 3 0 0 1 3 3Zm-7.5-6.2A4.2 4.2 0 1 0 16.2 14.5 4.2 4.2 0 0 0 12 10.3Zm0 6.3a2.1 2.1 0 1 1 2.1-2.1A2.1 2.1 0 0 1 12 16.6Zm5.1-8.6a1 1 0 1 1 1-1 1 1 0 0 1-1 1Z" />
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/company/107660745/admin/dashboard/" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" role="img" focusable="false">
+                <path d="M20.45 20.45h-3.55v-5.4c0-1.29 0-2.95-1.8-2.95s-2.07 1.4-2.07 2.86v5.49H9.48V9h3.41v1.56h.05c.48-.9 1.66-1.84 3.42-1.84 3.66 0 4.34 2.41 4.34 5.54Zm-14.76 0H2.13V9h3.56ZM3.91 7.43A2.06 2.06 0 1 1 6 5.37a2.06 2.06 0 0 1-2.09 2.06Z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+       </div>
+    </div>
+        <div class="two-column">
+          <!--
+          <div>
+            <ul class="bullets">
+               Use key bullets from your corporate/AI in the workplace content 
+              <li>AI in the Workplace masterclasses and workshops</li>
+              <li>Customised programmes aligned with your tech stack</li>
+              <li>On-site sessions at TPC Menlyn or at your offices</li>
+          </div>
+           -->
+            
+
+         <!-- <div>
+            <div class="highlight-card">
+              <p class="highlight-card__label">Featured experience</p>
+   
+              </ul>
+            </div>
+          </div>
+          -->
+        </div>
+
+    <!-- ===== HEADER ===== -->
+    <header class="site-header">
+      <div class="container site-header__content">
+        <a href="index.html" class="logo">
+          <img src="logo.png" alt="Tech Performance Centre logo" class="logo__img" />
+          <span class="logo__text">Tech Performance Centre</span>
+        </a>
+
+        <nav class="main-nav">
+          <!-- Match these to your current nav labels/anchors -->
+          <a href="programmes.html">Programmes</a>
+          <a href="about.html">About</a>
+          <a href="#campus">Campus</a>
+          <a href="contact.html">Contact</a>
+          <a href="#contact.html" class="btn btn--nav">Apply now</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="top">
+      <!-- Background video: place `hero.webm` (preferred) and optional `hero.mp4` + `hero.jpg` (poster) in the project root -->
+      <video class="hero__bg" autoplay muted loop playsinline poster="hero.jpg">
+        <source src="hero.webm" type="video/webm" />
+        <source src="hero.mp4" type="video/mp4" />
+        <!-- Fallback text if video unsupported -->
+        Your browser does not support the video tag.
+      </video>
+      <div class="containerTop hero__content">
+        <!-- HERO LEFT -->
+        <div class="hero__copy">
+          
+
+          <!-- HERO MAIN HEADING -->
+          <h1>
+            <span style="color: #ffffff;">Learn</span> <span style="color: #FAC516;">AI &amp; Tech</span>
+          </h1>
+          <br />
+          <p style="margin-left: 25%;">Master applied AI, Tech and Coding at Tech Performance Centre.</p>
+
+          <div class="hero__copy">
+          <span class="eyebrow">
+           
+          </span>
+          <!-- HERO BODY TEXT -->
+          
+
+          <div class="hero__actions">
+            <!-- Adjust CTA labels to match your site -->
+            <a href="programmes.html" class="btn btn--primary" style="margin-left: 5%">Explore programmes</a>
+            <a href="#contact" class="btn btn--ghost" style="margin-left: 5%">Download a brochure</a>
+          </div>
+
+          <!-- hero meta removed per request -->
+        </div>
+
+        <!-- HERO RIGHT (SUMMARY CARD) removed per request -->
+      </div>
+    </section>
+
+    
+
+    <!-- ===== PROGRAMMES (Text overlay on image) ===== -->
+    <section class="section section--programmes-spotlight" id="programmes">
+      <div class="container">
+        <figure class="programmes-spotlight">
+          <img src="campus.webp" alt="Learners collaborating at TPC campus" class="programmes-spotlight__image" />
+          <figcaption class="programmes-spotlight__content">
+            <p class="programmes-spotlight__eyebrow"></p>
+            <h2>Who is TPC and what do we do?</h2>
+            <p>
+              Welcome to Tech Performance Centre — where your tech career takes off. At TPC, we deliver full qualifications, immersive boot-camps and advanced master-classes built around an AI-driven learning management system (LMS) to empower individuals for high-demand tech roles. Whether you're getting started or advancing your expertise, we provide the practical, industry-aligned training you need to launch and grow a successful career in the fast-moving world of technology.
+            </p>
+            <div class="programmes-spotlight__actions">
+              <a href="programmes.html" class="btn btn--primary">Explore programmes</a>
+              <a href="#contact" class="btn btn--ghost">Talk to an advisor</a>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== LOGOS / SOCIAL PROOF STRIP ===== -->
+    <section class="logos">
+      <div class="container logos__content">
+        <p class="logos__label">
+          <!-- Short label above logos/segments -->
+          Trusted by learners across South Africa and accredited by QCTO
+        </p>
+        <div class="logos__row">
+          <!-- Replace with partner logos or keep as abstract "pills" -->
+          <a class="logo-pill" href="#school-leavers">
+            <img src="icon1.png" alt="School leavers icon" class="logo-pill__icon" />School leavers
+          </a>
+          <a class="logo-pill" href="#career-changers">
+            <img src="icon2.png" alt="Career changers icon" class="logo-pill__icon" />Career changers
+          </a>
+          <a class="logo-pill" href="#working-professionals">
+            <img src="icon3.png" alt="Working professionals icon" class="logo-pill__icon" />Working professionals
+          </a>
+          <a class="logo-pill" href="#corporate-teams">
+            <img src="icon4.png" alt="Corporate teams icon" class="logo-pill__icon" />Corporate teams
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CORPORATE TRAINING / AI IN THE WORKPLACE ===== -->
+    <section class="section" style="background: #2F3E4B; padding: 1rem 0 4rem;" id="corporate">
+      <div class="container">
+        
+
+        <div class="section__head" style="text-align: center; max-width: 100%; margin-top: 3rem;">
+          <h2 style="color: #ffffff;">Why Choose TPC?</h2>
+        </div>
+        
+        <div class="cards-grid cards-grid--3">
+          <div class="card">
+            <h3>AI-Powered Learning That Works for You</h3>
+            <p>Your study journey adapts to your pace, strengths, and gaps — keeping you motivated, supported, and always progressing.</p>
+          </div>
+          
+          <div class="card">
+            <h3>Hands-On Training That Builds Real Skills</h3>
+            <p>From your first week, you'll build real projects, solve real problems, and develop a portfolio that proves you're ready for the workplace.</p>
+          </div>
+          
+          <div class="card">
+            <h3>Training Aligned to Industry Demand</h3>
+            <p>Every module, assessment, and skill is designed with industry expectations in mind, so you graduate with exactly what employers are looking for.</p>
+          </div>
+        </div>
+
+        <div class="two-column corporate__details">
+          <div style="color: #ffffff;">
+            <h2>
+              <!-- Replace with your corporate heading-->
+              Corporate training & AI in the Workplace
+            </h2>
+            
+            <p>
+              <!-- Paste your corporate training intro text from the TPC site (or brochure style copy) -->
+              Equip your teams with practical tech and AI skills that improve productivity, efficiency, and decision-making.
+            </p>
+            <ul class="bullets" style="color: #ffffff;">
+              <!-- Use key bullets from your corporate/AI in the workplace content -->
+              <li>AI in the Workplace masterclasses and workshops</li>
+              <li>Customised programmes aligned with your tech stack</li>
+              <li>On-site sessions at TPC Menlyn or at your offices</li>
+            </ul>
+            <a href="#contact" class="btn btn--primary">Enquire about corporate training</a>
+          </div>
+
+          <div>
+            <div class="highlight-card" style="padding-top: 2rem;">
+              <p class="highlight-card__label"></p>
+              <h3 style="font-size: 1.4rem;">AI in the Workplace Masterclass</h3>
+              <p>
+                <!-- Paste your description that you use in your year-end AI masterclass marketing -->
+                A high-impact, hands-on session that shows your team how to use AI tools to streamline real tasks they perform every day.
+              </p>
+              <ul class="highlight-card__list">
+                <li>Real company scenarios and datasets</li>
+                <li>Guided experimentation with AI tools</li>
+                <li>Designed as a powerful team experience</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- ===== CAMPUS SECTION ===== -->
+    <section class="section section--programmes-spotlight section--campus-spotlight" id="campus">
+      <div class="container">
+        <figure class="programmes-spotlight">
+          <img src="ronaldpic.jpg" alt="Learners inside Tech Performance Centre Menlyn" class="programmes-spotlight__image" />
+          <figcaption class="programmes-spotlight__content">
+            <p class="programmes-spotlight__eyebrow">Our Campus</p>
+            <h2>Study at our Menlyn campus – or online</h2>
+            <p>
+              Our Menlyn campus is designed as a professional learning environment with modern classrooms, collaboration spaces and tech-enabled workstations — or join remotely with the same support.
+            </p>
+            <ul class="spotlight-list">
+              <li>Modern, tech-ready learning spaces</li>
+              <li>Easy access to Menlyn Maine and transport</li>
+              <li>Supportive community and facilitators</li>
+            </ul>
+            <div class="programmes-spotlight__actions">
+              <a href="#contact" class="btn btn--primary">Book a campus visit</a>
+              
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+    <!-- ===== RESOURCES / NEWS / STORIES ===== -->
+    <section class="section" id="resources">
+      <div class="container">
+        <div class="section__head">
+          <h2 style="text-align: right; margin-left: auto; width: fit-content; transform: translateX(9rem);">
+            <!-- Match this to your blog/news/info session content -->
+            Insights, events & learner stories
+          </h2>
+          <p style="text-align: right; margin-left: auto; margin-right: 0; max-width: 38rem; transform: translateX(12rem);">
+            <!-- One-liner inviting people to engage with your content -->
+            Discover upcoming info sessions, guides and stories from our learner community.
+          </p>
+        </div>
+
+        <!-- You can later link real blog posts / resources here -->
+        <div class="cards-grid cards-grid--3">
+          <article class="card card--resource">
+            <p class="card__tag">Guide</p>
+            <h3>How to choose the right tech programme</h3>
+            <p>Key questions to ask before enrolling in a bootcamp or full qualification.</p>
+            <a href="#contact" class="card__link">Get the guide →</a>
+          </article>
+
+          <article class="card card--resource">
+            <p class="card__tag">Event</p>
+            <h3>Online info sessions: Cyber Security, Full Stack & Python</h3>
+            <p>Join a free session and ask your questions directly to our facilitators.</p>
+            <a href="#contact" class="card__link">Register for an info session →</a>
+          </article>
+
+          <article class="card card--resource">
+            <p class="card__tag">Story</p>
+            <h3>A TPC learner’s journey from novice to developer</h3>
+            <p>See how structure, mentorship and practice lead to real transformation.</p>
+            <a href="#contact" class="card__link">Read the story →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA / BROCHURE FORM ===== -->
+    <section class="section section--cta">
+      <div class="container cta">
+        <div class="cta__copy">
+          <h2>
+            <!-- Use your strongest CTA line from the site -->
+            Ready to <span style="color: #FAC516;">LAUNCH</span> your tech career?
+          </h2>
+          <p>
+            <!-- Short supporting line from your brochure / enquiry section -->
+            Share your details and we’ll send you the right brochure plus next steps to get started.
+          </p>
+          <img src="rocket.png" alt="CTA visual placeholder" class="cta__image" />
+        </div>
+        <div class="highlight-card highlight-card--cta">
+          <p class="highlight-card__label">Brochure request</p>
+          <h3>Get the info pack</h3>
+          <p class="highlight-card__text">Drop your details and we’ll send the right programme guide plus next steps.</p>
+          <form class="cta__form" id="cta-form" action="" method="POST">
+            <!-- Dynamic Formspree endpoint set via JavaScript based on programme selection -->
+            <input type="hidden" name="form_name" value="CTA Brochure Request" />
+            <div class="form-field">
+              <label for="cta-name">Full name</label>
+              <input id="cta-name" name="name" type="text" placeholder="Your name" required />
+            </div>
+            <div class="form-field">
+              <label for="cta-email">Email address</label>
+              <input id="cta-email" name="email" type="email" placeholder="you@example.com" required />
+            </div>
+            <div class="form-field form-field--full">
+              <label for="cta-programme">Programme of interest</label>
+              <select id="cta-programme" name="programme" required>
+                <option value="">Select a programme</option>
+                <option value="software-developer">Software Developer (18 months)</option>
+                <option value="ai-developer">AI Developer (18 months)</option>
+                <option value="bootcamp">Full Stack Web Developer Bootcamp (3 months)</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn--primary">Send me the brochure</button>
+            <div class="form-status" id="cta-status" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer" id="contact">
+      <div class="container site-footer__grid">
+        <div>
+          <div class="logo logo--footer">
+            <img src="logo.png" alt="Tech Performance Centre logo" class="logo__img" />
+            <span class="logo__text">Tech Performance Centre</span>
+          </div>
+          <p class="site-footer__text">
+            <!-- Paste your footer blurb from the site -->
+            
+          </p>
+        </div>
+
+        <div>
+          <h4>Contact</h4>
+          <ul class="footer-list">
+            <!-- Replace these with your exact contact details if needed -->
+            <li>Menlyn, Pretoria, South Africa</li>
+            <li><a href="tel:+27120513483">012 051 3483</a></li>
+            <li><a href="https://wa.me/27827323216" target="_blank" rel="noopener">WhatsApp 082 732 3216</a></li>
+            <li><a href="mailto:info@tpc.training">info@tpc.training</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Programmes</h4>
+          <ul class="footer-list">
+            <!-- Link these to actual pages once created -->
+            <li><a href="#programmes">Software Developer (18 months)</a></li>
+            <li><a href="#programmes">AI Developer (18 months)</a></li>
+            <li><a href="#programmes">Full Stack Web Developer Bootcamp</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Follow</h4>
+          <ul class="footer-list">
+            <!-- Replace with your actual social links -->
+            <li><a href="https://www.facebook.com/TPCPerformanceCentre" target="_blank" rel="noopener">Facebook</a></li>
+            <li><a href="https://www.instagram.com/tpcperformancecentre/" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="https://www.linkedin.com/company/107660745/admin/dashboard/" target="_blank" rel="noopener">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="site-footer__bottom">
+        <div class="container site-footer__bottom-inner">
+          <span>© <span id="year">2025</span> Tech Performance Centre. All rights reserved.</span>
+          <span class="site-footer__meta">
+            #TPC #TechPerformanceCentre
+          </span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Map each programme to its Formspree endpoint
+    const formspreeEndpoints = {
+      'software-developer': 'https://formspree.io/f/xqaopvbw',
+      'ai-developer': 'https://formspree.io/f/mnnydazw',
+      'bootcamp': 'https://formspree.io/f/xjkdwboz'
+    };
+
+    const ctaForm = document.getElementById('cta-form');
+    const ctaStatus = document.getElementById('cta-status');
+    const ctaProgramme = document.getElementById('cta-programme');
+
+    if (ctaForm && ctaStatus && ctaProgramme) {
+      ctaForm.addEventListener('submit', async (event) => {
+        event.preventDefault();
+        
+        // Get the selected programme and set the corresponding Formspree endpoint
+        const selectedProgramme = ctaProgramme.value;
+        if (!selectedProgramme) {
+          ctaStatus.textContent = 'Please select a programme.';
+          ctaStatus.className = 'form-status form-status--error';
+          return;
+        }
+
+        const formAction = formspreeEndpoints[selectedProgramme];
+        if (!formAction) {
+          ctaStatus.textContent = 'Invalid programme selected.';
+          ctaStatus.className = 'form-status form-status--error';
+          return;
+        }
+
+        ctaStatus.textContent = 'Sending...';
+        ctaStatus.className = 'form-status';
+
+        try {
+          const response = await fetch(formAction, {
+            method: ctaForm.method,
+            headers: { Accept: 'application/json' },
+            body: new FormData(ctaForm)
+          });
+
+          if (response.ok) {
+            ctaStatus.textContent = 'Thanks! Check your inbox for the brochure.';
+            ctaStatus.classList.add('form-status--success');
+            ctaForm.reset();
+          } else {
+            const data = await response.json();
+            const errorMessage = data.errors?.map((err) => err.message).join(', ') || 'Something went wrong. Please try again later.';
+            ctaStatus.textContent = errorMessage;
+            ctaStatus.classList.add('form-status--error');
+          }
+        } catch (error) {
+          ctaStatus.textContent = 'Network error. Please check your connection and try again.';
+          ctaStatus.classList.add('form-status--error');
+        }
+      });
+    }
+  </script>
+</body>
+</html>
